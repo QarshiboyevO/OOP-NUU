@@ -38,7 +38,6 @@ class Account {
         return out;
     };
     friend istream& operator>>(istream& in,Account A) {
-        cout<<"Enter Owner's Name and Balance: ";
         in>>A.ownerName>>A.balance;
         return in;
     };
